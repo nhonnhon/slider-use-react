@@ -6,6 +6,6 @@ Slider using react
 **$ npm start** to development
 
 
-Licencse by Aleph Labs
+License by Aleph Labs
 
 

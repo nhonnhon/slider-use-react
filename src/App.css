@@ -10,6 +10,18 @@
 .bg-pink {
     background-color: pink;
 }
+.bg-gray {
+    background-color: gray;
+}
+.bg-purple {
+    background-color: purple;
+}
+.slider-track{
+    transition: transform .5s ease;
+}
+*{
+    box-sizing: border-box;
+}
 .slider-track:after{
     content: '';
     display: table;
@@ -17,4 +29,38 @@
 }
 .vn-slider{
     float: left;
+    padding: 20px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.react-slider{
+    overflow: hidden;
+}
+.slider-dots{
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+}
+.slider-dots li{
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.3);
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.slider-dots li.active{
+    background-color: black
+}
+.button-arrow{
+    padding: 10px;
+    cursor: pointer;
+}
+.button-arrow[disabled]{
+    opacity: 0.3;
+    cursor: text;
 }
